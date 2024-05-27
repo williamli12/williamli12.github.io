@@ -6,6 +6,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+    #contact,
+    #projects {
+    height: fit-content;
+  }
 }
 
 @media screen and (max-width: 1200px) { /* when screen px is less than 1200 pixels ... */
