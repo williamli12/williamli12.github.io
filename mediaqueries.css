@@ -100,6 +100,14 @@
     .text-container {
         text-align: justify;
     }
+
+    .contact-info-upper-container {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 

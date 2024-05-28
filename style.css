@@ -2,9 +2,21 @@
 /* . = class and the none before = addressing the whole <item> and # = id */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
+.arrow {
+    position: absolute;
+    right: -5rem;  /* coordinates to place the arrow */
+    bottom: 2.5rem;
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+.profile-pic {
+    border-radius: 2rem;
+    width: 48.75vh;
+    height: 65vh;
 }
 
 body {
@@ -167,6 +179,7 @@ section {
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    position: relative;
 }
 
 .section__pic-container {
@@ -285,13 +298,17 @@ section {
 
 .about-pic {
     border-radius: 2rem;
+    width: 48.75vh;
+    height: 65vh;
 }
 
+/*
 .arrow {
     position: absolute;
-    right: -5rem;  /* coordinates to place the arrow */
+    right: -5rem;   coordinates to place the arrow 
     bottom: 2.5rem;
 }
+*/
 
 .details-container {
     padding: 1.5rem;
