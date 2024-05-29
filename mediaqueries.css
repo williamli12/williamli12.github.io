@@ -52,6 +52,7 @@
         /*width: 275px;
         height: 275px;*/
         margin: 0 auto 3rem;
+        padding: 0;
     }
     
     .about-containers {
@@ -80,7 +81,7 @@
 
     .section__text__p1 {
         text-align: center; 
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -148,7 +149,15 @@
         gap: 10px;
     }
 
+}
 
+@media screen and (max-width: 450px) {
+    .profile-pic, 
+    .about-pic {
+        margin: 0;
+        padding: 0;
+        justify-self: center;
+    }
 }
 
 
