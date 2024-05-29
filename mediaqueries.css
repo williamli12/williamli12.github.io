@@ -42,6 +42,7 @@
     section,
     .section-container {
         height: fit-content;
+        position: relative;
     }
     section {
         margin: 0 5%;
@@ -49,10 +50,11 @@
     
     
     .section__pic-container {
-        /*width: 275px;
-        height: 275px;*/
+        /*width: 400px;
+        height: 400px;*/
         margin: 0 auto 3rem;
         padding: 0;
+        position: relative;
     }
     
     .about-containers {
@@ -68,6 +70,7 @@
         height: 100%;
 
         justify-self: center;
+        position: relative;
     }
 
     .about-pic {
@@ -77,11 +80,20 @@
         height: 100%;
 
         justify-self: center;
+        position: relative;
     }
 
     .section__text__p1 {
         text-align: center; 
         margin-top: 10px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .section__pic-container {
+        width: 400px;
+        height: 400px;
     }
 }
 
@@ -148,6 +160,7 @@
         align-items: center;
         gap: 10px;
     }
+
 
 }
 

@@ -209,7 +209,7 @@ section {
     height: auto;
     
 
-    margin: auto;/*0 auto;  center the container horizontally */
+    margin: auto 0;/*0 auto;  center the container horizontally */
     
     /*border-radius: 8px;  optional: rounded corners */
     /*overflow: hidden; /* ensure the image doesn't overflow the container */
